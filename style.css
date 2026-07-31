@@ -6089,6 +6089,1855 @@ TÉLÉPHONE
 
 }
 
+/* =====================================================
+26. SECTION « QUI SOMMES-NOUS ? » — AFMS/O
+===================================================== */
+
+.presentation-afmso {
+
+
+padding: 110px 0;
+
+background:
+
+    linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f7f2fa 100%
+    );
+
+
+}
+
+/* PETIT TITRE */
+
+.section-label {
+
+
+display: inline-block;
+
+margin-bottom: 18px;
+
+padding: 8px 16px;
+
+border-radius: 50px;
+
+color: #6d247f;
+
+font-size: 0.85rem;
+
+font-weight: 900;
+
+letter-spacing: 1.5px;
+
+background-color:
+
+    rgba(109, 36, 127, 0.10);
+
+
+}
+
+/* GRAND TITRE */
+
+.presentation-afmso h2 {
+
+
+max-width: 750px;
+
+margin-bottom: 25px;
+
+color: #42164f;
+
+font-size: clamp(
+    2rem,
+    4vw,
+    3.4rem
+);
+
+font-weight: 900;
+
+line-height: 1.15;
+
+
+}
+
+/* PARAGRAPHES */
+
+.presentation-afmso > .container p {
+
+
+margin-bottom: 20px;
+
+color: #555555;
+
+font-size: 1.08rem;
+
+line-height: 1.85;
+
+
+}
+
+/* BOUTON */
+
+.btn-presentation {
+
+
+display: inline-flex;
+
+align-items: center;
+
+gap: 10px;
+
+margin-top: 12px;
+
+padding: 14px 23px;
+
+border-radius: 50px;
+
+color: #ffffff;
+
+font-weight: 900;
+
+text-decoration: none;
+
+background:
+
+    linear-gradient(
+        135deg,
+        #5c1c70,
+        #8c3297
+    );
+
+box-shadow:
+
+    0 10px 25px
+
+    rgba(92, 28, 112, 0.25);
+
+transition:
+
+    transform 0.25s ease,
+
+    box-shadow 0.25s ease;
+
+
+}
+
+.btn-presentation:hover {
+
+
+color: #ffffff;
+
+transform:
+
+    translateY(-3px);
+
+box-shadow:
+
+    0 16px 30px
+
+    rgba(92, 28, 112, 0.32);
+
+
+}
+
+/* CARTE PRINCIPALE */
+
+.presentation-card {
+
+
+padding: 25px;
+
+border:
+
+    1px solid
+
+    rgba(109, 36, 127, 0.12);
+
+border-radius: 28px;
+
+background-color: #ffffff;
+
+box-shadow:
+
+    0 20px 55px
+
+    rgba(65, 22, 79, 0.12);
+
+
+}
+
+/* ÉLÉMENT */
+
+.presentation-item {
+
+
+display: flex;
+
+align-items: center;
+
+gap: 18px;
+
+padding: 20px;
+
+border-bottom:
+
+    1px solid
+
+    rgba(109, 36, 127, 0.10);
+
+transition:
+
+    background-color 0.25s ease,
+
+    transform 0.25s ease;
+
+
+}
+
+.presentation-item:last-child {
+
+
+border-bottom: none;
+
+
+}
+
+/* SURVOL */
+
+.presentation-item:hover {
+
+
+border-radius: 16px;
+
+background-color:
+
+    #faf4fc;
+
+transform:
+
+    translateX(7px);
+
+
+}
+
+/* ICÔNE */
+
+.presentation-icon {
+
+
+display: flex;
+
+flex-shrink: 0;
+
+justify-content: center;
+
+align-items: center;
+
+width: 58px;
+
+height: 58px;
+
+border-radius: 18px;
+
+color: #ffffff;
+
+font-size: 1.5rem;
+
+background:
+
+    linear-gradient(
+        135deg,
+        #642178,
+        #a13ca8
+    );
+
+box-shadow:
+
+    0 8px 18px
+
+    rgba(100, 33, 120, 0.22);
+
+
+}
+
+/* TITRES DES INFORMATIONS */
+
+.presentation-item h3 {
+
+
+margin: 0 0 4px;
+
+color: #4b1768;
+
+font-size: 1.3rem;
+
+font-weight: 900;
+
+
+}
+
+/* TEXTES DES INFORMATIONS */
+
+.presentation-item p {
+
+
+margin: 0;
+
+color: #666666;
+
+font-size: 0.96rem;
+
+line-height: 1.5;
+
+
+}
+
+/* =====================================================
+TABLETTE
+===================================================== */
+
+@media screen and (max-width: 991px) {
+
+
+.presentation-afmso {
+
+    padding: 85px 0;
+
+    text-align: center;
+
+}
+
+
+.presentation-afmso h2 {
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+}
+
+
+.presentation-afmso > .container p {
+
+    max-width: 760px;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+}
+
+
+.presentation-card {
+
+    max-width: 700px;
+
+    margin:
+
+        10px auto 0;
+
+    text-align: left;
+
+}
+
+
+}
+
+/* =====================================================
+TÉLÉPHONE
+===================================================== */
+
+@media screen and (max-width: 575px) {
+
+
+.presentation-afmso {
+
+    padding: 65px 0;
+
+}
+
+
+.presentation-afmso h2 {
+
+    font-size:
+
+        2rem;
+
+}
+
+
+.presentation-afmso > .container p {
+
+    font-size:
+
+        1rem;
+
+    line-height:
+
+        1.75;
+
+}
+
+
+.presentation-card {
+
+    padding:
+
+        12px;
+
+    border-radius:
+
+        20px;
+
+}
+
+
+.presentation-item {
+
+    align-items:
+
+        flex-start;
+
+    gap:
+
+        13px;
+
+    padding:
+
+        17px 10px;
+
+}
+
+
+.presentation-item:hover {
+
+    transform:
+
+        none;
+
+}
+
+
+.presentation-icon {
+
+    width:
+
+        48px;
+
+    height:
+
+        48px;
+
+    border-radius:
+
+        14px;
+
+    font-size:
+
+        1.2rem;
+
+}
+
+
+.presentation-item h3 {
+
+    font-size:
+
+        1.12rem;
+
+}
+
+
+.presentation-item p {
+
+    font-size:
+
+        0.9rem;
+
+}
+
+
+.btn-presentation {
+
+    width:
+
+        100%;
+
+    justify-content:
+
+        center;
+
+}
+
+
+}
+
+/* =====================================================
+ACCESSIBILITÉ — RÉDUCTION DES ANIMATIONS
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+
+.presentation-item,
+
+.btn-presentation {
+
+    transition:
+
+        none;
+
+}
+
+
+}
+/* =====================================================
+27. NOS DOMAINES D’ACTION — AFMS/O
+===================================================== */
+
+.actions-afmso {
+
+
+padding: 110px 0;
+
+background:
+
+    linear-gradient(
+        135deg,
+        #4b1768 0%,
+        #6f2789 55%,
+        #8e3b9c 100%
+    );
+
+
+}
+
+/* EN-TÊTE */
+
+.actions-header {
+
+
+max-width: 850px;
+
+margin:
+
+    0 auto 60px;
+
+text-align: center;
+
+
+}
+
+/* BADGE */
+
+.actions-header .section-label {
+
+
+color: #ffffff;
+
+background:
+
+    rgba(255, 255, 255, 0.14);
+
+border:
+
+    1px solid
+
+    rgba(255, 255, 255, 0.22);
+
+
+}
+
+/* TITRE */
+
+.actions-header h2 {
+
+
+margin-bottom: 20px;
+
+color: #ffffff;
+
+font-size:
+
+    clamp(
+        2rem,
+        4vw,
+        3.4rem
+    );
+
+font-weight: 900;
+
+line-height: 1.15;
+
+
+}
+
+/* DESCRIPTION */
+
+.actions-header p {
+
+
+margin: 0 auto;
+
+color:
+
+    rgba(255, 255, 255, 0.88);
+
+font-size: 1.1rem;
+
+line-height: 1.8;
+
+
+}
+
+/* =====================================================
+CARTES
+===================================================== */
+
+.action-card {
+
+
+display: flex;
+
+flex-direction: column;
+
+height: 100%;
+
+padding: 35px 28px;
+
+border:
+
+    1px solid
+
+    rgba(255, 255, 255, 0.15);
+
+border-radius: 25px;
+
+background:
+
+    rgba(255, 255, 255, 0.97);
+
+box-shadow:
+
+    0 18px 40px
+
+    rgba(20, 5, 30, 0.22);
+
+transition:
+
+    transform 0.3s ease,
+
+    box-shadow 0.3s ease;
+
+
+}
+
+/* SURVOL */
+
+.action-card:hover {
+
+
+transform:
+
+    translateY(-10px);
+
+box-shadow:
+
+    0 28px 55px
+
+    rgba(20, 5, 30, 0.32);
+
+
+}
+
+/* ICÔNE */
+
+.action-icon {
+
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+width: 70px;
+
+height: 70px;
+
+margin-bottom: 25px;
+
+border-radius: 22px;
+
+color: #ffffff;
+
+font-size: 1.8rem;
+
+background:
+
+    linear-gradient(
+        135deg,
+        #5d1d73,
+        #a442aa
+    );
+
+box-shadow:
+
+    0 10px 22px
+
+    rgba(93, 29, 115, 0.25);
+
+
+}
+
+/* TITRE DES CARTES */
+
+.action-card h3 {
+
+
+margin-bottom: 15px;
+
+color: #48165d;
+
+font-size: 1.35rem;
+
+font-weight: 900;
+
+line-height: 1.3;
+
+
+}
+
+/* TEXTE */
+
+.action-card p {
+
+
+flex-grow: 1;
+
+margin-bottom: 25px;
+
+color: #626262;
+
+font-size: 1rem;
+
+line-height: 1.75;
+
+
+}
+
+/* LIEN */
+
+.action-link {
+
+
+display: inline-flex;
+
+align-items: center;
+
+gap: 8px;
+
+width: fit-content;
+
+color: #6b217d;
+
+font-weight: 900;
+
+text-decoration: none;
+
+transition:
+
+    gap 0.25s ease,
+
+    color 0.25s ease;
+
+
+}
+
+.action-link:hover {
+
+
+gap: 13px;
+
+color: #9b3ca3;
+
+
+}
+
+/* =====================================================
+BOUTON PRINCIPAL
+===================================================== */
+
+.actions-button {
+
+
+margin-top: 50px;
+
+text-align: center;
+
+
+}
+
+.btn-actions {
+
+
+display: inline-flex;
+
+justify-content: center;
+
+align-items: center;
+
+gap: 11px;
+
+padding: 16px 28px;
+
+border:
+
+    2px solid
+
+    rgba(255, 255, 255, 0.75);
+
+border-radius: 50px;
+
+color: #ffffff;
+
+font-weight: 900;
+
+text-decoration: none;
+
+background:
+
+    rgba(255, 255, 255, 0.10);
+
+transition:
+
+    transform 0.25s ease,
+
+    background-color 0.25s ease,
+
+    color 0.25s ease;
+
+
+}
+
+.btn-actions:hover {
+
+
+color: #4b1768;
+
+background-color: #ffffff;
+
+transform:
+
+    translateY(-3px);
+
+
+}
+
+/* =====================================================
+TABLETTE
+===================================================== */
+
+@media screen and (max-width: 991px) {
+
+
+.actions-afmso {
+
+    padding:
+
+        85px 0;
+
+}
+
+
+.actions-header {
+
+    margin-bottom:
+
+        45px;
+
+}
+
+
+}
+
+/* =====================================================
+TÉLÉPHONE
+===================================================== */
+
+@media screen and (max-width: 575px) {
+
+
+.actions-afmso {
+
+    padding:
+
+        65px 0;
+
+}
+
+
+.actions-header {
+
+    margin-bottom:
+
+        35px;
+
+}
+
+
+.actions-header h2 {
+
+    font-size:
+
+        2rem;
+
+}
+
+
+.actions-header p {
+
+    font-size:
+
+        1rem;
+
+    line-height:
+
+        1.7;
+
+}
+
+
+.action-card {
+
+    padding:
+
+        28px 23px;
+
+    border-radius:
+
+        20px;
+
+}
+
+
+.action-card:hover {
+
+    transform:
+
+        none;
+
+}
+
+
+.action-icon {
+
+    width:
+
+        62px;
+
+    height:
+
+        62px;
+
+    margin-bottom:
+
+        20px;
+
+    font-size:
+
+        1.55rem;
+
+}
+
+
+.btn-actions {
+
+    width:
+
+        100%;
+
+}
+
+
+}
+
+/* =====================================================
+ACCESSIBILITÉ
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+
+.action-card,
+
+.action-link,
+
+.btn-actions {
+
+    transition:
+
+        none;
+
+}
+
+
+}
+
+/* =====================================================
+28. NOS CHIFFRES CLÉS — AFMS/O
+===================================================== */
+
+.chiffres-afmso {
+
+
+padding: 110px 0;
+
+background:
+
+    linear-gradient(
+        180deg,
+        #f7f2fa 0%,
+        #ffffff 100%
+    );
+
+
+}
+
+/* INTRODUCTION */
+
+.chiffres-introduction {
+
+
+max-width: 820px;
+
+margin:
+
+    0 auto 60px;
+
+text-align: center;
+
+
+}
+
+.chiffres-introduction h2 {
+
+
+margin-bottom: 20px;
+
+color: #42164f;
+
+font-size:
+
+    clamp(
+        2rem,
+        4vw,
+        3.4rem
+    );
+
+font-weight: 900;
+
+line-height: 1.15;
+
+
+}
+
+.chiffres-introduction p {
+
+
+margin: 0 auto;
+
+color: #5d5d5d;
+
+font-size: 1.08rem;
+
+line-height: 1.8;
+
+
+}
+
+/* =====================================================
+CARTES DES CHIFFRES
+===================================================== */
+
+.chiffre-card {
+
+
+position: relative;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+min-height: 220px;
+
+padding: 30px 20px;
+
+overflow: hidden;
+
+border:
+
+    1px solid
+
+    rgba(98, 31, 117, 0.12);
+
+border-radius: 25px;
+
+text-align: center;
+
+background-color: #ffffff;
+
+box-shadow:
+
+    0 15px 38px
+
+    rgba(65, 22, 79, 0.10);
+
+transition:
+
+    transform 0.3s ease,
+
+    box-shadow 0.3s ease;
+
+
+}
+
+/* DÉCORATION */
+
+.chiffre-card::before {
+
+
+content: "";
+
+position: absolute;
+
+width: 150px;
+
+height: 150px;
+
+top: -90px;
+
+right: -75px;
+
+border-radius: 50%;
+
+background:
+
+    rgba(132, 48, 151, 0.08);
+
+
+}
+
+/* SURVOL */
+
+.chiffre-card:hover {
+
+
+transform:
+
+    translateY(-8px);
+
+box-shadow:
+
+    0 25px 50px
+
+    rgba(65, 22, 79, 0.17);
+
+
+}
+
+/* GRAND CHIFFRE */
+
+.chiffre-nombre {
+
+
+position: relative;
+
+z-index: 1;
+
+margin-bottom: 12px;
+
+color: #6a227d;
+
+font-size:
+
+    clamp(
+        2.3rem,
+        5vw,
+        4rem
+    );
+
+font-weight: 900;
+
+line-height: 1;
+
+letter-spacing: -1px;
+
+
+}
+
+/* TEXTE */
+
+.chiffre-card p {
+
+
+position: relative;
+
+z-index: 1;
+
+max-width: 220px;
+
+margin: 0;
+
+color: #5f5f5f;
+
+font-size: 1rem;
+
+font-weight: 700;
+
+line-height: 1.55;
+
+
+}
+
+/* =====================================================
+TABLETTE
+===================================================== */
+
+@media screen and (max-width: 991px) {
+
+
+.chiffres-afmso {
+
+    padding:
+
+        85px 0;
+
+}
+
+
+.chiffres-introduction {
+
+    margin-bottom:
+
+        45px;
+
+}
+
+
+}
+
+/* =====================================================
+TÉLÉPHONE
+===================================================== */
+
+@media screen and (max-width: 575px) {
+
+
+.chiffres-afmso {
+
+    padding:
+
+        65px 0;
+
+}
+
+
+.chiffres-introduction {
+
+    margin-bottom:
+
+        35px;
+
+}
+
+
+.chiffres-introduction h2 {
+
+    font-size:
+
+        2rem;
+
+}
+
+
+.chiffres-introduction p {
+
+    font-size:
+
+        1rem;
+
+    line-height:
+
+        1.7;
+
+}
+
+
+.chiffre-card {
+
+    min-height:
+
+        180px;
+
+    padding:
+
+        22px 12px;
+
+    border-radius:
+
+        20px;
+
+}
+
+
+.chiffre-card:hover {
+
+    transform:
+
+        none;
+
+}
+
+
+.chiffre-nombre {
+
+    font-size:
+
+        2.5rem;
+
+}
+
+
+.chiffre-card p {
+
+    font-size:
+
+        0.9rem;
+
+}
+
+
+}
+
+/* =====================================================
+ACCESSIBILITÉ
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+
+.chiffre-card {
+
+    transition:
+
+        none;
+
+}
+
+
+}
+
+/* =====================================================
+29. SOUTENIR L’AFMS/O
+===================================================== */
+
+.soutien-afmso {
+
+
+padding: 110px 0;
+
+background:
+
+    linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #f7edf9 100%
+    );
+
+
+}
+
+/* PETIT LABEL */
+
+.soutien-label {
+
+
+display: inline-block;
+
+margin-bottom: 18px;
+
+padding: 9px 18px;
+
+border-radius: 50px;
+
+color: #ffffff;
+
+font-size: 0.85rem;
+
+font-weight: 900;
+
+letter-spacing: 1.5px;
+
+background:
+
+    linear-gradient(
+        135deg,
+        #5b1d70,
+        #963da3
+    );
+
+
+}
+
+/* TITRE */
+
+.soutien-afmso h2 {
+
+
+max-width: 700px;
+
+margin-bottom: 25px;
+
+color: #42164f;
+
+font-size:
+
+    clamp(
+        2rem,
+        4vw,
+        3.4rem
+    );
+
+font-weight: 900;
+
+line-height: 1.15;
+
+
+}
+
+/* TEXTES */
+
+.soutien-afmso p {
+
+
+color: #5d5d5d;
+
+font-size: 1.08rem;
+
+line-height: 1.85;
+
+margin-bottom: 20px;
+
+
+}
+
+/* BOUTONS */
+
+.soutien-buttons {
+
+
+display: flex;
+
+flex-wrap: wrap;
+
+gap: 15px;
+
+margin-top: 35px;
+
+
+}
+
+.btn-soutien-primary,
+
+.btn-soutien-secondary {
+
+
+display: inline-flex;
+
+justify-content: center;
+
+align-items: center;
+
+gap: 10px;
+
+padding: 15px 25px;
+
+border-radius: 50px;
+
+font-weight: 900;
+
+text-decoration: none;
+
+transition:
+
+    transform 0.25s ease,
+
+    box-shadow 0.25s ease,
+
+    background-color 0.25s ease;
+
+
+}
+
+/* BOUTON PRINCIPAL */
+
+.btn-soutien-primary {
+
+
+color: #ffffff;
+
+background:
+
+    linear-gradient(
+        135deg,
+        #5d1d73,
+        #a442aa
+    );
+
+box-shadow:
+
+    0 12px 25px
+
+    rgba(93, 29, 115, 0.25);
+
+
+}
+
+.btn-soutien-primary:hover {
+
+
+color: #ffffff;
+
+transform:
+
+    translateY(-3px);
+
+box-shadow:
+
+    0 18px 35px
+
+    rgba(93, 29, 115, 0.35);
+
+
+}
+
+/* BOUTON SECONDAIRE */
+
+.btn-soutien-secondary {
+
+
+color: #5d1d73;
+
+border:
+
+    2px solid
+
+    #7b2c8d;
+
+background-color:
+
+    transparent;
+
+
+}
+
+.btn-soutien-secondary:hover {
+
+
+color: #ffffff;
+
+background-color:
+
+    #7b2c8d;
+
+transform:
+
+    translateY(-3px);
+
+
+}
+
+/* =====================================================
+CARTE DE DROITE
+===================================================== */
+
+.soutien-card {
+
+
+padding: 40px 32px;
+
+border-radius: 30px;
+
+background:
+
+    linear-gradient(
+        145deg,
+        #5b1d70,
+        #963da3
+    );
+
+color: #ffffff;
+
+box-shadow:
+
+    0 25px 60px
+
+    rgba(70, 20, 90, 0.25);
+
+
+}
+
+/* ICÔNE */
+
+.soutien-icon {
+
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+width: 75px;
+
+height: 75px;
+
+margin-bottom: 25px;
+
+border-radius: 25px;
+
+color: #5d1d73;
+
+font-size: 2rem;
+
+background-color: #ffffff;
+
+
+}
+
+/* TITRE CARTE */
+
+.soutien-card h3 {
+
+
+margin-bottom: 18px;
+
+color: #ffffff;
+
+font-size: 1.7rem;
+
+font-weight: 900;
+
+line-height: 1.35;
+
+
+}
+
+/* TEXTE CARTE */
+
+.soutien-card p {
+
+
+color:
+
+    rgba(255,255,255,0.9);
+
+font-size: 1rem;
+
+
+}
+
+/* LISTE */
+
+.soutien-list {
+
+
+margin-top: 25px;
+
+
+}
+
+.soutien-list div {
+
+
+display: flex;
+
+align-items: center;
+
+gap: 12px;
+
+margin-bottom: 15px;
+
+color: #ffffff;
+
+font-weight: 700;
+
+
+}
+
+.soutien-list i {
+
+
+color: #ffd85a;
+
+
+}
+
+/* =====================================================
+TABLETTE
+===================================================== */
+
+@media screen and (max-width: 991px) {
+
+
+.soutien-afmso {
+
+    padding:
+
+        85px 0;
+
+    text-align:
+
+        center;
+
+}
+
+
+.soutien-afmso h2 {
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+}
+
+
+.soutien-buttons {
+
+    justify-content:
+
+        center;
+
+}
+
+
+.soutien-card {
+
+    max-width:
+
+        650px;
+
+    margin:
+
+        20px auto 0;
+
+    text-align:
+
+        left;
+
+}
+
+
+}
+
+/* =====================================================
+TÉLÉPHONE
+===================================================== */
+
+@media screen and (max-width: 575px) {
+
+
+.soutien-afmso {
+
+    padding:
+
+        65px 0;
+
+}
+
+
+.soutien-afmso h2 {
+
+    font-size:
+
+        2rem;
+
+}
+
+
+.soutien-afmso p {
+
+    font-size:
+
+        1rem;
+
+}
+
+
+.soutien-buttons {
+
+    flex-direction:
+
+        column;
+
+}
+
+
+.btn-soutien-primary,
+
+.btn-soutien-secondary {
+
+    width:
+
+        100%;
+
+}
+
+
+.soutien-card {
+
+    padding:
+
+        30px 22px;
+
+    border-radius:
+
+        22px;
+
+}
+
+
+}
+
+/* =====================================================
+ACCESSIBILITÉ
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+
+.btn-soutien-primary,
+
+.btn-soutien-secondary {
+
+    transition:
+
+        none;
+
+}
+
+
+}
+
+
+
+
 
 
 
