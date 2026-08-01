@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/apropos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/activites.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/projets.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/actualites.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/equipe.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/galerie.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/documents.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://assofmso2026.github.io/site-afmso/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+
+</urlset>

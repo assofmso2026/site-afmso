@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://assofmso2026.github.io/site-afmso/sitemap.xml
