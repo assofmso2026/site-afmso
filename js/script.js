@@ -506,44 +506,13 @@ if (
 
     formulaireContact.addEventListener(
         "submit",
-        function (evenement) {
-
-            evenement.preventDefault();
-
-
-            if (
-                !formulaireContact.checkValidity()
-            ) {
-
-                messageFormulaire.textContent =
-
-                    "Veuillez remplir correctement tous les champs.";
-
-
-                messageFormulaire.className =
-
-                    "contact-form-message visible error";
-
-
-                formulaireContact.reportValidity();
-
-
-                return;
-
-            }
-
+        function () {
 
             messageFormulaire.textContent =
-
-                "Votre message a été préparé. Pour l’instant, le formulaire ne l’envoie pas encore automatiquement. La prochaine étape sera de le relier à un service d’envoi sécurisé.";
-
+                "Envoi de votre message en cours...";
 
             messageFormulaire.className =
-
                 "contact-form-message visible success";
-
-
-            formulaireContact.reset();
 
         }
     );
