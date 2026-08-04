@@ -520,6 +520,46 @@ if (
 }
 
 /* =====================================================
+   CONFIRMATION APRÈS ENVOI DU FORMULAIRE
+===================================================== */
+
+const parametresURL = new URLSearchParams(
+    window.location.search
+);
+
+
+if (
+    parametresURL.get("success") === "true"
+) {
+
+    const messageFormulaire = document.querySelector(
+        "#contactFormMessage"
+    );
+
+
+    if (messageFormulaire) {
+
+        messageFormulaire.textContent =
+
+            "Votre message a été envoyé avec succès. L’équipe de l’AFMS/O vous répondra dès que possible.";
+
+
+        messageFormulaire.className =
+
+            "contact-form-message visible success";
+
+    }
+
+
+    window.history.replaceState(
+        {},
+        document.title,
+        window.location.pathname
+    );
+
+}
+
+/* =====================================================
    BOUTON RETOUR EN HAUT
 ===================================================== */
 
